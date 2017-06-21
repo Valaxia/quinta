@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>mi primera página responsive</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	 <style>
+	 html{
+	 	box-sizing: border-box;
+	 }
+	 *, *:before, *:after {
+	 	box-sizing: inherit;
+	 }
+
+	 body{
+
+	 	margin: 0;
+	 	background-color: #FAEBD7;
+	 }
+	 	.section{
+
+	 	}
+
+	 	.container{
+	 		max-width: 1170px;
+	 		margin-left: auto;
+	 		margin-right: auto;
+
+	 	}
+
+	 	.row1{
+	 		background-color: #7FFFD4;
+	 		clear: both;
+			text-align: center;
+	 		padding-top: 20px;
+	 		width: 100%;
+	 		height: 100px;
+	 		margin-left: auto;
+	 		margin-bottom: 0.5px;
+	 		line-height: 10px;
+	 		margin-right: auto;
+	 		color: #F08080;
+	 		font-family: sans-serif;
+
+	 	}
+	 	.row{
+	 		clear: both;
+	 	}
+
+	 	.cell{
+	 		float: left;
+	 		width: 33.3%;
+	 		padding: 20px;
+ 		}	
+ 		.img-responsive{
+ 			max-width: 100%;
+ 		}
+
+ 		@media (max-width: 480px){
+ 			.cell{
+ 				width: 100%;
+ 			}
+ 			.row1{
+ 				max-height: 100vh;
+ 			}
+ 		}
+   
+
+	 </style>
+</head>
+<body>
+<header class="row1">
+	<div>
+	 	<h1> hOLA! </h1>
+	 	<p> Esta es una página web súper cool</p>
+	 </div>   
+</header>
+
+<section>
+<div class="container"> 
+<div class="row">
+
+	<div class="cell">
+	<img src="http://lorempixel.com/400/200/" class="img-responsive">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+		<div class="cell">
+		<img src="http://lorempixel.com/400/200/" class="img-responsive">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+		<div class="cell">
+		<img src="http://lorempixel.com/400/200/" class="img-responsive">
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	</div>
+</div>
+</section>
+
+</body>
+</html>
